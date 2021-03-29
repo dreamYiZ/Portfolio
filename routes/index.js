@@ -1,22 +1,22 @@
 router = require('express').Router();
 
 const sendGrid = require('@sendgrid/mail');
-console.log('SENDGRID_API_KEY', process.env.SENDGRID_API_KEY);
+// console.log('SENDGRID_API_KEY', process.env.SENDGRID_API_KEY);
 sendGrid.setApiKey(process.env.SENDGRID_API_KEY);
 
-router.get('/api', (req, res) => {
+router.get('/', (req, res) => {
     res.send('API Status: Running');
 });
 
 // router.post('/api/email', (req, res) => {});
 
-router.post('/api/email', (req, res, next) => {
+router.post('/email', (req, res, next) => {
     let email = req.body.email;
     let msg = req.body.message;
     const message = {
         to: 'tnt81@hotmail.it', // Change to your recipient
         from: 'm.capurri@gmail.com', // Change to your verified sender
-        subject: 'Message from the website',
+        subject: `Message from ${email}`,
         text: msg,
         // email: email,
     };
