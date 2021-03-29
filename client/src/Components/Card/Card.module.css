@@ -23,16 +23,14 @@
 
 .Back {
     transform: rotateY(180deg);
-    background-color: #ccc;
+    background-color: rgb(181, 200, 221);
     color: blue;
     font-size: 2rem;
     font-weight: bold;
 }
 .Image {
-    border-radius: 10px;
-    width: 300px;
-    height: 480px;
-    box-shadow: 1px 1px 3px 1px #ccc;
+    height: 100%;
+    width: 100%;
 }
 
 .Info {

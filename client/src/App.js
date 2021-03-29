@@ -53,7 +53,7 @@ function App() {
                         aria-controls="navbar-toggle"
                     />
                     <Navbar.Collapse id="navbar-toggle" ref={ref}>
-                        <Nav className="ml-auto">
+                        <Nav className="ml-auto" style={{ textAlign: 'right' }}>
                             <Link className="nav-link text-white" to="/">
                                 Home
                             </Link>
