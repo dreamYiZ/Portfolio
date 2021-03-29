@@ -25,34 +25,41 @@ function App() {
         },
         contact: {
             title: 'Get in touch!',
-            subtitle: 'Happy to have feedbacks',
+            subtitle: 'Happy to have your feedback',
         },
     };
-    const ref = useRef();
+    const ref = useRef(null);
 
     return (
         <Router>
-            <Container className="p-0" fluid={true} ref={ref}>
+            <Container
+                className="p-0"
+                fluid={true}
+                ref={ref}
+                style={{ backgroundColor: 'rgb(10, 12, 57)', color: '#ccc' }}
+            >
                 <Navbar
-                    className="border-bottom"
+                    className="border-bottom text-white"
                     bg="transparent"
                     expand="lg"
                     ref={ref}
                 >
-                    <Navbar.Brand>Marco Capurri</Navbar.Brand>
+                    <Navbar.Brand className="text-white">
+                        Marco Capurri
+                    </Navbar.Brand>
                     <Navbar.Toggle
-                        className="border-0"
+                        className="border-0 navbar-dark"
                         aria-controls="navbar-toggle"
                     />
                     <Navbar.Collapse id="navbar-toggle" ref={ref}>
                         <Nav className="ml-auto">
-                            <Link className="nav-link" to="/">
+                            <Link className="nav-link text-white" to="/">
                                 Home
                             </Link>
-                            <Link className="nav-link" to="/about">
+                            <Link className="nav-link text-white" to="/about">
                                 About
                             </Link>
-                            <Link className="nav-link" to="/contact">
+                            <Link className="nav-link text-white" to="/contact">
                                 Contact
                             </Link>
                         </Nav>
