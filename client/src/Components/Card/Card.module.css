@@ -1,5 +1,32 @@
 .Card {
     margin: 20px;
+    position: relative;
+    height: 480px;
+    width: 300px;
+    border-radius: 20px;
+    perspective: 2000px;
+}
+.Card:hover .Front {
+    transform: rotateY(180deg);
+}
+.Card:hover .Back {
+    transform: rotateY(0deg);
+}
+.CardSide {
+    box-shadow: 1px 1px 3px 1px #ccc;
+    transition: all 0.9s;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.Back {
+    transform: rotateY(180deg);
+    background-color: #ccc;
+    color: blue;
+    font-size: 2rem;
+    font-weight: bold;
 }
 .Image {
     border-radius: 10px;
@@ -9,8 +36,9 @@
 }
 
 .Info {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     min-height: 100px;
+    position: relative;
 }
 
 .Title {
