@@ -1,16 +1,17 @@
 import React from 'react';
+import CardInfo from '../../CardInfo/CardInfo';
 
-const Description = () => {
+const Description = (props) => {
     return (
         <div
-            style={{
-                display: 'flex',
-                justifyContent: 'center',
-                // alignItems: 'center',
-                marginTop: '45%',
-            }}
+        // style={{
+        //     display: 'flex',
+        //     flexDirection: 'column',
+        //     alignItems: 'center',
+        //     marginTop: '45%',
+        // }}
         >
-            <p>Description</p>
+            <CardInfo item={props.item} />
         </div>
     );
 };

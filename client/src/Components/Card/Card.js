@@ -1,5 +1,4 @@
 import React from 'react';
-import CardInfo from '../CardInfo/CardInfo';
 import Description from './Description/Description';
 import style from './Card.module.css';
 
@@ -15,16 +14,9 @@ const Card = (props) => {
                     />
                 </div>
                 <div className={`${style.CardSide} ${style.Back}`}>
-                    <Description />
+                    <Description item={props.item} />
                 </div>
             </div>
-            {props.item.selected && (
-                <CardInfo
-                    title={props.item.title}
-                    subtitle={props.item.subtitle}
-                    link={props.item.link}
-                />
-            )}
         </div>
     );
 };

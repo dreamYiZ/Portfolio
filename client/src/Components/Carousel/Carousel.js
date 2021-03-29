@@ -15,6 +15,7 @@ const Carousel = () => {
             imgSrc: space,
             link: '',
             selected: false,
+            description: 'description of the app...',
         },
         {
             id: 1,
@@ -24,6 +25,7 @@ const Carousel = () => {
             // imgSrc: animalClinic,
             link: '',
             selected: false,
+            description: 'description of the app..',
         },
     ]);
 
