@@ -1,0 +1,23 @@
+.Card {
+    margin: 20px;
+}
+.Image {
+    border-radius: 10px;
+    width: 300px;
+    height: 480px;
+    box-shadow: 1px 1px 3px 1px #ccc;
+}
+
+.Info {
+    margin-top: 10px;
+    min-height: 100px;
+}
+
+.Title {
+    font-size: 24px;
+    margin: 0px;
+}
+.Subtitle {
+    font-size: 16px;
+    margin: 0px;
+}
