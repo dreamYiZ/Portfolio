@@ -81,8 +81,8 @@ const Contact = (props) => {
                         />
                     </Form.Group>
                     <Button
-                        className="d-inline-block"
-                        variant="primary"
+                        className="d-inline-block btn btn-outline-light"
+                        variant="blue"
                         type="submit"
                         disabled={form.disable}
                     >

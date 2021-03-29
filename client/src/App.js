@@ -33,7 +33,7 @@ function App() {
     return (
         <Router>
             <Container
-                className="p-0"
+                className="p-3"
                 fluid={true}
                 ref={ref}
                 style={{ backgroundColor: 'rgb(10, 12, 57)', color: '#ccc' }}
@@ -45,7 +45,8 @@ function App() {
                     ref={ref}
                 >
                     <Navbar.Brand className="text-white">
-                        Marco Capurri
+                        Marco Capurri <br />{' '}
+                        <small>Professional Portfolio</small>
                     </Navbar.Brand>
                     <Navbar.Toggle
                         className="border-0 navbar-dark"
