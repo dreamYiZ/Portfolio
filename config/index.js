@@ -43,4 +43,7 @@ module.exports = (app) => {
     app.use(express.urlencoded({ extended: false }));
 
     // Handles access to the favicon
+    //     app.use(
+    //         favicon(path.join(__dirname, '..', 'public', 'images', 'favicon.ico'))
+    //     );
 };
