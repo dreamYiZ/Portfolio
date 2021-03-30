@@ -9,7 +9,11 @@ const CardInfo = (props) => {
                 <p className={style.Subtitle}>{props.item.subtitle}</p>
                 <p className={style.Description}>{props.item.description}</p>
             </div>
-            <a href={props.item.link} target="_blank" rel="noopener noreferrer">
+            <a
+                href={props.item.link}
+                // target="_blank"
+                // rel="noopener noreferrer"
+            >
                 View
             </a>
         </div>

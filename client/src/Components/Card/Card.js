@@ -8,22 +8,14 @@ const Card = (props) => {
 
     let styles = useSpring(
         isHovered
-            ? ({
-                  zIndex: 2,
-                  from: { zIndex: 1 },
-              },
-              {
+            ? {
                   transform: 'scale(1.2)',
                   from: { transform: 'scale(1)' },
-              })
-            : ({
-                  zIndex: 1,
-                  from: { zIndex: 2 },
-              },
-              {
+              }
+            : {
                   transform: 'scale(1)',
                   from: { transform: 'scale(1.2)' },
-              })
+              }
     );
 
     return (

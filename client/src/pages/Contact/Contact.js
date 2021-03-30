@@ -14,11 +14,8 @@ const Contact = (props) => {
     });
 
     const handleChange = (event) => {
-        // console.log('event', event.target);
-
         const target = event.target;
-        const value =
-            target.type === 'checkbox' ? target.checked : target.value;
+        const value = target.value;
         const name = target.name;
 
         setForm({ ...form, [name]: value });
@@ -27,25 +24,38 @@ const Contact = (props) => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        setForm({ ...form, disabled: true, emailSent: false });
+        setForm({
+            disabled: true,
+            emailSent: false,
+        });
         axios
             .post('api/email', form)
             .then((res) => {
-                console.log('responseDB', res);
+                // console.log('responseDB', res.data);
                 if (res.data.success) {
-                    setForm({ ...form, disabled: false, emailSent: true });
-                } else {
-                    setForm({ ...form, disabled: false, emailSent: false });
+                    setForm({
+                        name: '',
+                        email: '',
+                        message: '',
+                        disabled: false,
+                        emailSent: true,
+                    });
                 }
             })
             .catch((err) => {
-                setForm({ ...form, disabled: false, emailSent: false });
+                setForm({
+                    name: '',
+                    email: '',
+                    message: '',
+                    disabled: false,
+                    emailSent: false,
+                });
                 console.log('err in axios', err);
             });
     };
 
     return (
-        <div>
+        <>
             <Hero title={props.title} subtitle={props.subtitle} />
             <Content>
                 <Form onSubmit={handleSubmit}>
@@ -89,14 +99,24 @@ const Contact = (props) => {
                         Send
                     </Button>
                     {form.emailSent === true && (
-                        <p className="d-inline success-msg">Email Sent</p>
+                        <p
+                            className="d-inline success-msg"
+                            style={{ marginLeft: '10%' }}
+                        >
+                            Message Sent
+                        </p>
                     )}
                     {form.emailSent === false && (
-                        <p className="d-inline err-msg">Email Not Sent</p>
+                        <p
+                            className="d-inline err-msg"
+                            style={{ marginLeft: '10%' }}
+                        >
+                            Message Not Sent
+                        </p>
                     )}
                 </Form>
             </Content>
-        </div>
+        </>
     );
 };
 

@@ -1,14 +1,18 @@
 router = require('express').Router();
 
 const sendGrid = require('@sendgrid/mail');
+console.log('SENDGRID_API_KEY', process.env.SENDGRID_API_KEY);
 sendGrid.setApiKey(process.env.SENDGRID_API_KEY);
 
 router.get('/', (req, res) => {
     res.send('API Status: Running');
 });
 
+// router.post('/api/email', (req, res) => {});
+
 router.post('/email', (req, res, next) => {
-    const { email, msg } = req.body;
+    let email = req.body.email;
+    let msg = req.body.message;
     const message = {
         to: 'tnt81@hotmail.it',
         from: 'm.capurri@gmail.com',
@@ -19,7 +23,7 @@ router.post('/email', (req, res, next) => {
 
     sendGrid
         .send(message)
-        .then(() => console.log('success! email sent'))
+        .then(() => res.status(201).json({ success: 'message sent' }))
         .catch((err) => next(err));
 });
 

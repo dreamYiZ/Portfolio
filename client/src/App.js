@@ -2,6 +2,7 @@ import './App.css';
 import React, { useRef } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Container, Navbar, Nav } from 'react-bootstrap';
+// import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
@@ -21,7 +22,7 @@ function App() {
             text: 'Professional Portfolio',
         },
         about: {
-            title: 'About me',
+            title: 'About me..',
         },
         contact: {
             title: 'Get in touch!',
@@ -52,7 +53,7 @@ function App() {
                         className="border-0 navbar-dark"
                         aria-controls="navbar-toggle"
                     />
-                    <Navbar.Collapse id="navbar-toggle" ref={ref}>
+                    <Navbar.Collapse id="navbar-toggle">
                         <Nav className="ml-auto" style={{ textAlign: 'right' }}>
                             <Link className="nav-link text-white" to="/">
                                 Home

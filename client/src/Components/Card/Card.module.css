@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-self: flex-end;
     align-self: center;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 .Card a:hover {
     text-decoration: none;
