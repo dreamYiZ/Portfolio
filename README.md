@@ -1,9 +1,9 @@
 ## Portfolio Website
 Professional website presenting my main projects as developer
 
-* 🔍 Describe the projects and provide their links
-* ✉️: Allows the user to reach out by filling up the dedicated form 
-* 📖 It includes an about page with bio
+* 🔍 &nbsp; Describe the projects and provide their links
+* ✉️ &nbsp; Allows the user to reach out by filling up the dedicated form 
+* 📖 &nbsp;It includes an about page with bio
 
 
 ## Technologies used:
