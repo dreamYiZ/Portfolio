@@ -1,33 +1,12 @@
 import React from 'react';
 import Card from '../Card/Card';
 import { Container, Row } from 'react-bootstrap';
-
-import space from '../../assets/images/space.png';
+import projects from '../../projects';
+// import space from '../../assets/images/space.png';
 
 const Carousel = () => {
     // const [, updateState] = useState();
     // const forceUpdate = useCallback(() => updateState({}), []);
-    const items = [
-        {
-            id: 0,
-            title: 'Petition',
-            subtitle: 'Express/React/PostgreSQL',
-            imgSrc: space,
-            link: '',
-            // selected: false,
-            description: 'description of the app...',
-        },
-        {
-            id: 1,
-            title: 'Animal Clinic',
-            subtitle: 'Express/React/MongoDB',
-            imgSrc: space,
-            // imgSrc: animalClinic,
-            link: '',
-            // selected: false,
-            description: 'description of the app..',
-        },
-    ];
 
     // const handleCardClick = (id) => {
     //     items[id].selected = !items[id].selected;
@@ -56,7 +35,7 @@ const Carousel = () => {
     return (
         <Container fluid={true}>
             <Row className="justify-content-around">
-                {makeItems([...items])}
+                {makeItems([...projects])}
             </Row>
         </Container>
     );

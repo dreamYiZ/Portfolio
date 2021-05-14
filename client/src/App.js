@@ -45,8 +45,11 @@ function App() {
                     expand="lg"
                     ref={ref}
                 >
-                    <Navbar.Brand className="text-white">
-                        Marco Capurri <br />{' '}
+                    <Navbar.Brand
+                        className="text-white"
+                        style={{ fontFamily: "'Poppins', sans-serif" }}
+                    >
+                        Marco Capurri <br />
                         <small>Professional Portfolio</small>
                     </Navbar.Brand>
                     <Navbar.Toggle

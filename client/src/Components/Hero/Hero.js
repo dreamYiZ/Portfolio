@@ -17,14 +17,14 @@ const Hero = (props) => {
                                 {props.title}
                             </h1>
                         )}
-                        {props.subtitle && (
+                        {props.techs && (
                             <h3
                                 className="display-5 font-weight-light"
                                 style={{
                                     fontFamily: "'Train One', cursive",
                                 }}
                             >
-                                {props.subtitle}
+                                {props.techs}
                             </h3>
                         )}
                         {props.text && (
