@@ -1,7 +1,6 @@
 router = require('express').Router();
 
 const sendGrid = require('@sendgrid/mail');
-console.log('SENDGRID_API_KEY', process.env.SENDGRID_API_KEY);
 sendGrid.setApiKey(process.env.SENDGRID_API_KEY);
 
 router.get('/', (req, res) => {
