@@ -4,10 +4,14 @@ import Hero from '../../Components/Hero/Hero';
 
 const About = (props) => {
     return (
-        <div>
+        <div style={{ width: '100%', height: '100%', padding: '0 5%' }}>
             <Hero title={props.title} />
             <Content>
-                <p style={{ fontFamily: "'New Tegomin', serif" }}>
+                <p
+                    style={{
+                        fontFamily: "'New Tegomin', serif",
+                    }}
+                >
                     Welcome to my page!
                 </p>
                 <p style={{ fontFamily: "'New Tegomin', serif" }}>

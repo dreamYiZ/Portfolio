@@ -1,5 +1,6 @@
-import './App.css';
+// import './App.css';
 import React, { useRef } from 'react';
+// import style from './App.module.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 // import { TransitionGroup, CSSTransition } from 'react-transition-group';
@@ -38,7 +39,14 @@ function App() {
                 className="p-3"
                 fluid={true}
                 ref={ref}
-                style={{ backgroundColor: 'rgb(10, 12, 57)', color: '#ccc' }}
+                // className={style.App}
+                style={{
+                    width: '100%',
+                    height: '100%',
+                    backgroundColor: 'rgb(10, 12, 57)',
+                    color: '#ccc',
+                    overflow: 'auto',
+                }}
             >
                 <NavigationBar ref={ref} />
 
