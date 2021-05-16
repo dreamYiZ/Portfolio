@@ -1,12 +1,13 @@
 import './App.css';
 import React, { useRef } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { Container, Navbar, Nav } from 'react-bootstrap';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
 // import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+import NavigationBar from './Components/NavigationBar/NavigationBar';
 
 function App() {
     const config = {
@@ -39,37 +40,8 @@ function App() {
                 ref={ref}
                 style={{ backgroundColor: 'rgb(10, 12, 57)', color: '#ccc' }}
             >
-                <Navbar
-                    className="border-bottom text-white"
-                    bg="transparent"
-                    expand="lg"
-                    ref={ref}
-                >
-                    <Navbar.Brand
-                        className="text-white"
-                        style={{ fontFamily: "'Poppins', sans-serif" }}
-                    >
-                        Marco Capurri <br />
-                        <small>Professional Portfolio</small>
-                    </Navbar.Brand>
-                    <Navbar.Toggle
-                        className="border-0 navbar-dark"
-                        aria-controls="navbar-toggle"
-                    />
-                    <Navbar.Collapse id="navbar-toggle">
-                        <Nav className="ml-auto" style={{ textAlign: 'right' }}>
-                            <Link className="nav-link text-white" to="/">
-                                Home
-                            </Link>
-                            <Link className="nav-link text-white" to="/about">
-                                About
-                            </Link>
-                            <Link className="nav-link text-white" to="/contact">
-                                Contact
-                            </Link>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Navbar>
+                <NavigationBar ref={ref} />
+
                 <Route
                     exact
                     path="/"

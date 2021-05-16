@@ -3,7 +3,7 @@ import space from './assets/images/space.png';
 const projects = [
     {
         id: 0,
-        title: 'Animal Clinic',
+        title: 'Vet Clinic',
         imgSrc: space,
         selected: false,
         description:
