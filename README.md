@@ -1,5 +1,5 @@
 ## Portfolio Website
-Professional website presenting my main projects as developer
+Professional website showcasing my main projects as developer
 
 * 🔍 &nbsp; Describe the projects and provide their links
 * ✉️ &nbsp; Allows the user to reach out by filling up the dedicated form 
