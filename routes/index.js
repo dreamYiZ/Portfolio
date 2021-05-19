@@ -27,7 +27,7 @@ router.post('/email', (req, res, next) => {
 });
 
 router.get('*', function (req, res) {
-    res.redirect('localhost:3000/Home');
+    res.redirect('/Home');
 });
 
 module.exports = router;
