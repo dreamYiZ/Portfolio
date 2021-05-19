@@ -15,7 +15,14 @@ const NavigationBar = (props) => {
                 style={{ fontFamily: "'Poppins', sans-serif" }}
             >
                 Marco Capurri <br />
-                <small>Professional Portfolio</small>
+                <small
+                    style={{
+                        fontFamily: "'Press Start 2P', cursive",
+                        fontSize: '0.6rem',
+                    }}
+                >
+                    Web Developer
+                </small>
             </Navbar.Brand>
             <Navbar.Toggle
                 className="border-0 navbar-dark"

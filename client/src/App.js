@@ -20,7 +20,7 @@ function App() {
         ],
         home: {
             title: 'Marco Capurri',
-            subtitle: 'Junior Web Developer',
+            subtitle: 'Full-stack Web Developer',
             text: 'Professional Portfolio',
         },
         about: {
@@ -39,7 +39,6 @@ function App() {
                 className="p-3"
                 fluid={true}
                 ref={ref}
-                // className={style.App}
                 style={{
                     width: '100%',
                     height: '100%',

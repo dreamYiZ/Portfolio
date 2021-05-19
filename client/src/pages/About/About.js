@@ -4,7 +4,7 @@ import Hero from '../../Components/Hero/Hero';
 
 const About = (props) => {
     return (
-        <div style={{ width: '100%', height: '100%', padding: '0 5%' }}>
+        <div style={{ width: '100%', height: '77vh', padding: '0 5%' }}>
             <Hero title={props.title} />
             <Content>
                 <p
@@ -27,15 +27,15 @@ const About = (props) => {
                 </p>
                 <p style={{ fontFamily: "'New Tegomin', serif" }}>
                     Highly empathetic and naturally inclined to help others, I
-                    started my journey into tech to build modern web
+                    pivoted my professional career into tech to build modern web
                     applications which can provide some major improvements to
                     the community or lead to social change.
                 </p>
                 <p style={{ fontFamily: "'New Tegomin', serif" }}>
                     I found in Web development an efficient, intelligent and
                     creative way of self-expression, as well as a huge amazing
-                    dev community, which provided me the help and support I
-                    needed to keep on track.
+                    dev community, always ready to empower and support members
+                    growth.
                 </p>
 
                 <p style={{ fontFamily: "'New Tegomin', serif" }}>

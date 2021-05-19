@@ -22,7 +22,10 @@ const Hero = (props) => {
                             <h1
                                 className="display-4 font-weight-bolder"
                                 style={{
-                                    fontFamily: "'Poppins', sans-serif",
+                                    fontFamily: "'Goblin One', cursive",
+                                    fontSize: '2.7rem',
+
+                                    // fontFamily: "'Poppins', sans-serif",
                                     // fontWeight: 'normal',
                                 }}
                             >
