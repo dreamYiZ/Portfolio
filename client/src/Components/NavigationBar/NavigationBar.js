@@ -12,7 +12,10 @@ const NavigationBar = (props) => {
         >
             <Navbar.Brand
                 className="text-white"
-                style={{ fontFamily: "'Poppins', sans-serif" }}
+                style={{
+                    fontFamily: "'Orbitron', sans-serif",
+                    fontWeight: 'bold',
+                }}
             >
                 Marco Capurri <br />
                 <small
