@@ -76,8 +76,9 @@
     margin-bottom: 10%;
     font-size: 0.8rem;
 }
-.Iframe {
+.Video {
     width: 95%;
+    border: 0.7px solid blue;
 }
 .Buttons {
     width: 100%;

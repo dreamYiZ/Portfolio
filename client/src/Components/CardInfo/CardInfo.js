@@ -14,11 +14,16 @@ const CardInfo = (props) => {
                 <p className={style.Title}>{props.item.title}</p>
                 <p className={style.Description}>{props.item.description}</p>
                 <p className={style.Techs}>{props.item.techs}</p>
-                <iframe
-                    className={style.Iframe}
+
+                <video
                     src={props.item.videoSrc}
+                    className={style.Video}
                     title="project-highlight"
-                />
+                    autoPlay
+                >
+                    {' '}
+                    Your browser does not support the HTML5 Video element.
+                </video>
             </div>
             <div className={style.Buttons}>
                 <a href={props.item.gitHubUrl}>
