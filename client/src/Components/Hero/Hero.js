@@ -8,27 +8,15 @@ const Hero = (props) => {
             <Container fluid={true}>
                 <Row className="justify-content-center py-5">
                     <Col md={8} sm={12}>
-                        {props.title && window.location.pathname !== '/' ? (
-                            <h1
-                                className="display-4 font-weight-bolder"
-                                style={{
-                                    fontFamily: "'Press Start 2P', cursive",
-                                    fontSize: '3rem',
-                                }}
-                            >
-                                {props.title}
-                            </h1>
-                        ) : (
-                            <h1
-                                className="display-4 font-weight-bolder"
-                                style={{
-                                    fontFamily: "'Orbitron', sans-serif",
-                                    fontSize: '3rem',
-                                }}
-                            >
-                                {props.title}
-                            </h1>
-                        )}
+                        <h1
+                            className="display-4 font-weight-bolder"
+                            style={{
+                                fontFamily: "'Orbitron', sans-serif",
+                                fontSize: '4rem',
+                            }}
+                        >
+                            {props.title}
+                        </h1>
                         {props.subtitle && (
                             <h3
                                 className="display-5 font-weight-light"

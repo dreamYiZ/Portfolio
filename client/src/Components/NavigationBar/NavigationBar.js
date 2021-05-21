@@ -34,17 +34,17 @@ const NavigationBar = (props) => {
             <Navbar.Collapse id="navbar-toggle">
                 <Nav className="ml-auto" style={{ textAlign: 'right' }}>
                     <LinkContainer to="/">
-                        <Nav.Link className="nav-link text-white">
+                        <Nav.Link className="nav-link text-white font-weight-bold">
                             Home
                         </Nav.Link>
                     </LinkContainer>
                     <LinkContainer to="/about">
-                        <Nav.Link className="nav-link text-white">
+                        <Nav.Link className="nav-link text-white font-weight-bold">
                             About
                         </Nav.Link>
                     </LinkContainer>
                     <LinkContainer to="/contact">
-                        <Nav.Link className="nav-link text-white">
+                        <Nav.Link className="nav-link text-white ">
                             Contact
                         </Nav.Link>
                     </LinkContainer>
