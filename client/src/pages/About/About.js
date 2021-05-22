@@ -15,9 +15,9 @@ const About = (props) => {
                     Welcome to my page!
                 </p>
                 <p style={{ fontFamily: "'New Tegomin', serif" }}>
-                    I am a junior full stack Web Developer based in Berlin.
-                    <br /> I am passionate about new technologies, clean
-                    energies, blockchains and AI.
+                    I am a full stack Web Developer based in Berlin.
+                    <br /> I am passionate about new technologies, blockchains
+                    and AI.
                 </p>
 
                 <p style={{ fontFamily: "'New Tegomin', serif" }}>
@@ -33,9 +33,8 @@ const About = (props) => {
                 </p>
                 <p style={{ fontFamily: "'New Tegomin', serif" }}>
                     I found in Web development an efficient, intelligent and
-                    creative way of self-expression, as well as a huge amazing
-                    dev community, always ready to empower and support members
-                    growth.
+                    creative way of self-expression, as well as an amazing
+                    community, where I always got the help and support I needed.
                 </p>
 
                 <p style={{ fontFamily: "'New Tegomin', serif" }}>

@@ -22,7 +22,7 @@ const projects = [
         imgSrc: futura,
         selected: false,
         description:
-            'Responsive Mobile Eco-App built to promote plastic recycling in Nigeria.',
+            'Responsive Mobile Eco-App built to promote plastic recycling in Western Africa.',
         techs: 'Node.js, Express.js, React, Bootstrap, JWT, Passport, Mongoose, Cloudinary, Mapbox GL, Socket.io',
         videoSrc: FuturaVideo,
         gitHubUrl: 'https://github.com/mcapurri/Futura',

@@ -44,7 +44,7 @@ const NavigationBar = (props) => {
                         </Nav.Link>
                     </LinkContainer>
                     <LinkContainer to="/contact">
-                        <Nav.Link className="nav-link text-white ">
+                        <Nav.Link className="nav-link text-white font-weight-bold">
                             Contact
                         </Nav.Link>
                     </LinkContainer>
