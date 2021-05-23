@@ -31,14 +31,10 @@ const About = (props) => {
                     applications which can provide some major improvements to
                     the community or lead to social change.
                 </p>
-                <p style={{ fontFamily: "'New Tegomin', serif" }}>
-                    I found in Web development an efficient, intelligent and
-                    creative way of self-expression, as well as an amazing
-                    community, where I always got the help and support I needed.
-                </p>
 
                 <p style={{ fontFamily: "'New Tegomin', serif" }}>
-                    Hope you will like my Web page and my work!
+                    Wish you a pleasant navigation, please leave a feedback in
+                    the contact page!
                 </p>
             </Content>
         </div>
