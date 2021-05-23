@@ -55,7 +55,7 @@ const Contact = (props) => {
     };
 
     return (
-        <div style={{ width: '100%', height: '77vh', padding: '0 5%' }}>
+        <div style={{ width: '100%', minHeight: '100vh', padding: '0 5%' }}>
             <Hero title={props.title} subtitle={props.subtitle} />
             <Content>
                 <Form onSubmit={handleSubmit}>

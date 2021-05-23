@@ -7,7 +7,7 @@ const Footer = () => {
             <Container fluid={true}>
                 <Row className="border-top justify-content-between align-items-center p-3">
                     <Col className="p-0" md={3} sm={4}>
-                        © MC
+                        © Marco Capurri
                     </Col>
                     <Col
                         className="p-0 d-flex justify-content-end"
