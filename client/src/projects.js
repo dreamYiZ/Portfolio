@@ -15,6 +15,7 @@ const projects = [
         videoSrc: vetClinicVideo,
         gitHubUrl: 'https://github.com/mcapurri/Vet-Clinic',
         link: 'https://vet-clinic-project.herokuapp.com',
+        credentials: { username: 'braden@gmail.com', password: '123' },
     },
     {
         id: 1,
@@ -27,6 +28,7 @@ const projects = [
         videoSrc: FuturaVideo,
         gitHubUrl: 'https://github.com/mcapurri/Futura',
         link: 'https://futura-recycling.herokuapp.com',
+        credentials: { username: 'jack@gmail.com', password: '123' },
     },
 ];
 

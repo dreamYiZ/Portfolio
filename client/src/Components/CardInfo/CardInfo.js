@@ -1,5 +1,6 @@
 import React from 'react';
 import style from '../Card/Card.module.css';
+import { BsFillPersonFill, BsFillEyeFill } from 'react-icons/bs';
 
 const CardInfo = (props) => {
     return (
@@ -11,10 +12,22 @@ const CardInfo = (props) => {
                     alignItems: 'center',
                 }}
             >
-                <p className={style.Title}>{props.item.title}</p>
-                <p className={style.Description}>{props.item.description}</p>
-                <p className={style.Techs}>{props.item.techs}</p>
-
+                <div>
+                    <p className={style.Title}>{props.item.title}</p>
+                    <p className={style.Description}>
+                        {props.item.description}
+                    </p>
+                    <p className={style.Techs}>{props.item.techs}</p>
+                </div>
+                <div style={{ marginTop: '-5%' }}>
+                    <span>
+                        Credentials: <BsFillPersonFill />{' '}
+                        {props.item.credentials.username}
+                    </span>{' '}
+                    <span>
+                        <BsFillEyeFill /> {props.item.credentials.password}
+                    </span>
+                </div>
                 <video
                     src={props.item.videoSrc}
                     className={style.Video}
