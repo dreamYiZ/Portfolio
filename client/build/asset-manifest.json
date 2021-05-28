@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ee0426e2.chunk.css",
+    "main.css": "/static/css/main.d7e180ef.chunk.css",
     "main.js": "/static/js/main.48a59b23.chunk.js",
     "main.js.map": "/static/js/main.48a59b23.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.af40235d.js",
@@ -12,7 +12,7 @@
     "static/js/3.f1c27d2d.chunk.js.map": "/static/js/3.f1c27d2d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.ee0426e2.chunk.css.map": "/static/css/main.ee0426e2.chunk.css.map",
+    "static/css/main.d7e180ef.chunk.css.map": "/static/css/main.d7e180ef.chunk.css.map",
     "static/js/2.14976ffc.chunk.js.LICENSE.txt": "/static/js/2.14976ffc.chunk.js.LICENSE.txt",
     "static/media/Futura-screenshot.9de2feb6.png": "/static/media/Futura-screenshot.9de2feb6.png",
     "static/media/Futura-video.c8e6643c.mp4": "/static/media/Futura-video.c8e6643c.mp4",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.af40235d.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.14976ffc.chunk.js",
-    "static/css/main.ee0426e2.chunk.css",
+    "static/css/main.d7e180ef.chunk.css",
     "static/js/main.48a59b23.chunk.js"
   ]
 }

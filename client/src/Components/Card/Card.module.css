@@ -34,10 +34,15 @@
     position: absolute;
     height: 100%;
     width: 100%;
+    /* transform: rotateY(0deg); */
     backface-visibility: hidden;
     -webkit-transform-style: preserve-3d;
     justify-content: flex-start;
     border-radius: 20px;
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    visibility: visible;
 }
 
 .Back {
