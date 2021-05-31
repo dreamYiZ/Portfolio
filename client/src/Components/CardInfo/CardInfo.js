@@ -46,19 +46,25 @@ const CardInfo = (props) => {
                         style={{ width: '4rem' }}
                     />
                 </a>
-                <a
-                    href={props.item.link}
-                    // target="_blank"
-                    // rel="noopener noreferrer"
-                >
-                    <img
-                        src="assets/images/link-logo.png"
-                        alt="link-logo"
-                        style={{
-                            width: '2rem',
-                            backgroundColor: 'transparent',
-                        }}
-                    />
+                <a href={props.item.link}>
+                    <div style={{ display: 'flex' }}>
+                        <span
+                            style={{
+                                fontSize: '1rem',
+                            }}
+                        >
+                            View
+                        </span>
+                        <img
+                            src="assets/images/link-logo.png"
+                            alt="link-logo"
+                            style={{
+                                backgroundColor: 'transparent',
+                                width: '1rem',
+                                marginLeft: '7%',
+                            }}
+                        />
+                    </div>
                 </a>
             </div>
         </div>
