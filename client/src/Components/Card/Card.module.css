@@ -47,10 +47,16 @@
 
 .Back {
     transform: rotateY(180deg);
-    background-color: rgb(155, 180, 209);
+    /* background-color: rgb(155, 180, 209); */
     font-weight: bold;
     color: rgb(32, 32, 172);
     font-family: 'Poppins', sans-serif;
+    background-color: #bdd4e7;
+    background-image: linear-gradient(
+        315deg,
+        #acc0d1 0%,
+        #8693ab 0%
+    ) !important;
 }
 .Image {
     height: 100%;
