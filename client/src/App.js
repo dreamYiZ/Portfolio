@@ -10,6 +10,7 @@ import Contact from "./pages/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import NavigationBar from "./Components/NavigationBar/NavigationBar";
 import BackgroundVideo from "./assets/videos/stars-video.mp4";
+import style from "./App.module.css";
 
 function App() {
   const config = {
@@ -53,15 +54,15 @@ function App() {
           autoplay="autoplay"
           muted
           loop
-          // id={style.BackgroundVideo}
-          style={{
-            position: "absolute",
-            right: "0",
-            bottom: "-15%",
-            width: "100%",
-            height: "104%",
-            "object-fit": "cover",
-          }}
+          id={style.BackgroundVideo}
+          //   style={{
+          //     position: "absolute",
+          //     right: "0",
+          //     bottom: "-15%",
+          //     width: "100%",
+          //     height: "104%",
+          //     "object-fit": "cover",
+          //   }}
         >
           <source src={BackgroundVideo} type="video/mp4" />
         </video>
