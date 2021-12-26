@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.863f5ae8.chunk.css",
-    "main.js": "/static/js/main.e5bf8efb.chunk.js",
-    "main.js.map": "/static/js/main.e5bf8efb.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.af40235d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.af40235d.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.14976ffc.chunk.js": "/static/js/2.14976ffc.chunk.js",
-    "static/js/2.14976ffc.chunk.js.map": "/static/js/2.14976ffc.chunk.js.map",
-    "static/js/3.f1c27d2d.chunk.js": "/static/js/3.f1c27d2d.chunk.js",
-    "static/js/3.f1c27d2d.chunk.js.map": "/static/js/3.f1c27d2d.chunk.js.map",
+    "main.css": "/static/css/main.9523dd12.chunk.css",
+    "main.js": "/static/js/main.5f60f2bd.chunk.js",
+    "main.js.map": "/static/js/main.5f60f2bd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.690f0587.js",
+    "runtime-main.js.map": "/static/js/runtime-main.690f0587.js.map",
+    "static/css/2.d6008dad.chunk.css": "/static/css/2.d6008dad.chunk.css",
+    "static/js/2.a500cd43.chunk.js": "/static/js/2.a500cd43.chunk.js",
+    "static/js/2.a500cd43.chunk.js.map": "/static/js/2.a500cd43.chunk.js.map",
+    "static/js/3.30a52039.chunk.js": "/static/js/3.30a52039.chunk.js",
+    "static/js/3.30a52039.chunk.js.map": "/static/js/3.30a52039.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.863f5ae8.chunk.css.map": "/static/css/main.863f5ae8.chunk.css.map",
-    "static/js/2.14976ffc.chunk.js.LICENSE.txt": "/static/js/2.14976ffc.chunk.js.LICENSE.txt",
+    "static/css/2.d6008dad.chunk.css.map": "/static/css/2.d6008dad.chunk.css.map",
+    "static/css/main.9523dd12.chunk.css.map": "/static/css/main.9523dd12.chunk.css.map",
+    "static/js/2.a500cd43.chunk.js.LICENSE.txt": "/static/js/2.a500cd43.chunk.js.LICENSE.txt",
     "static/media/Futura-screenshot.9de2feb6.png": "/static/media/Futura-screenshot.9de2feb6.png",
     "static/media/Futura-video.c8e6643c.mp4": "/static/media/Futura-video.c8e6643c.mp4",
     "static/media/Vet-clinic-screenshot.ceb43063.png": "/static/media/Vet-clinic-screenshot.ceb43063.png",
-    "static/media/VetClinic-video.4624a2ec.mp4": "/static/media/VetClinic-video.4624a2ec.mp4"
+    "static/media/VetClinic-video.4624a2ec.mp4": "/static/media/VetClinic-video.4624a2ec.mp4",
+    "static/media/stars-video.8d69cb10.mp4": "/static/media/stars-video.8d69cb10.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.af40235d.js",
-    "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.14976ffc.chunk.js",
-    "static/css/main.863f5ae8.chunk.css",
-    "static/js/main.e5bf8efb.chunk.js"
+    "static/js/runtime-main.690f0587.js",
+    "static/css/2.d6008dad.chunk.css",
+    "static/js/2.a500cd43.chunk.js",
+    "static/css/main.9523dd12.chunk.css",
+    "static/js/main.5f60f2bd.chunk.js"
   ]
 }
